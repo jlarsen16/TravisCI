@@ -58,7 +58,7 @@ namespace TravisCILab
         [Test]
         public void Multiply_Valid_Larsen()
         {
-            Assert.AreEqual(5, Program.Multiply("3", "2"));
+            Assert.AreEqual(6, Program.Multiply("3", "2"));
             Assert.AreEqual(10, Program.Multiply("5", "2"));
             Assert.AreEqual(84, Program.Multiply("12", "7"));
         }
